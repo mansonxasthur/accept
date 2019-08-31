@@ -1,6 +1,6 @@
 {
     "name": "mx13/accept",
-    "description": "Accept online payment package for Laravel",
+    "description": "Accept online payment package for Laravel.",
     "type": "library",
     "require": {
         "guzzlehttp/guzzle": "^6.3@dev"
