@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App;
+namespace MX13\Accept;
 
 
 use GuzzleHttp\Client;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace MX13\Accept;
 
 use Illuminate\Support\ServiceProvider;
 use MX13\Accept\Console\Commands\AcceptEnv;
