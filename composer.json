@@ -1,0 +1,33 @@
+{
+    "name": "mx13/accept",
+    "description": "Accept online payment package for Laravel",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Manson Xasthur",
+            "email": "manson@mx13.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "MX13\\Accept\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MX13\\Accept\\AcceptServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "post-package-install": [
+            "@php artisan accept:install"
+        ]
+    }
+}
