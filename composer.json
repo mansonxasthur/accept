@@ -24,10 +24,5 @@
                 "MX13\\Accept\\AcceptServiceProvider"
             ]
         }
-    },
-    "scripts": {
-        "post-autoload-dump": [
-            "@php artisan accept:install"
-        ]
     }
 }
