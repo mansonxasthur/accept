@@ -46,7 +46,7 @@ If you would like to override Accept package default configuration run the follo
  // Set item details
  $item->setName('Product 1')    
      ->setDescription('Some Product')
-     ->setAmountCents(9900)
+     ->setAmountCents(9900) // Item price in cents
      ->setQuantity(1);
 
  $itemList = new ItemList();    // MX13\Accept\ItemList
